@@ -1,0 +1,124 @@
+/* navigation bar */
+
+nav .tabs{
+  margin-right: 20px;
+}
+
+.active{
+  border-bottom: 2px solid green;
+  pointer-events: none;                /* to be removed in future */
+}
+
+nav .tabs:hover{
+  background-color: green;
+  border-radius: 3px;
+}
+
+.dropdown-menu{
+  border: 2px solid green;
+  background-color: rgba(0, 0, 0, 0);
+}
+
+a.dropdown-item{
+  color: white;
+}
+
+a.dropdown-item:hover{
+  color: green;
+}
+/* ------------------------------------------------------------------------- */
+/* home container */
+
+.intro-div{
+  width: 100%;
+  height: 550px;
+  background-image: url("images/police-officers-bg.jpg");
+  background-size: 100% 550px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.sub-intro-div{
+  position: absolute;
+  filter: blur(0);
+  top: 18%;
+  color: white;
+  padding: 10px 40px;
+  width: 100%;
+}
+
+/* intro text */
+h1.intro-text{
+  font-size: 70px;
+  font-family: Roboto, sans-serif;
+}
+
+.intro-text{
+  font-size: 130%;
+}
+
+/* ------------------------------------------------------------------------- */
+/* report section */
+
+.report-div{
+  width: 100%;
+  height: 400px;
+  background-color: #f76c6c;
+}
+
+.report-div img.left-img{
+  float: left;
+  width: 40%;
+  height: 100%;
+  display: inline;
+}
+
+.report-section{
+  padding: 7% 0% 0% 45%;
+  color: white;
+}
+
+div section{
+  position: relative;
+}
+
+h2{
+  font-size: 60px;
+}
+
+.body-section p{
+  font-size: 130%;
+}
+
+.body-section button{
+  box-shadow: 4px 4px black;
+}
+
+.report-section button{
+  margin: 2% 0% 0% 20%;
+}
+
+/* ------------------------------------------------------------------------- */
+/* lost and found section */
+
+.lost-div{
+  width: 100%;
+  height: 400px;
+  background-color: #39424e;
+}
+
+.lost-div img.right-img{
+  float: right;
+  width: 40%;
+  height: 100%;
+  display: inline;
+}
+
+.lost-section{
+  padding: 7% 2% 2% 5%;
+  color: white;
+}
+
+.lost-section button{
+  margin: 2% 0% 0% 10%;
+}
